@@ -95,7 +95,7 @@ StyleCopReport.xml
 
 # Chutzpah Test files
 _Chutzpah*
-
+/Udemy---Curso-de-Python.code-workspace
 # Visual C++ cache files
 ipch/
 *.aps
