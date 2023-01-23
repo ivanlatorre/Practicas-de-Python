@@ -1,0 +1,35 @@
+lista = ["Iván Lato", "Iván", True, 1.66]
+print("lista: ", lista)
+print(lista[1])
+print(lista[-1])
+
+tupla = ("Iván lato", "Iván", True, 1.66)
+print("tupla: ",tupla)
+#las tuplas pueden tener elementos duplicados
+
+
+#creado conjuntos
+conjunto = {"Iván Lato", "Iván", True, 1.85}
+print("conjunto: ",conjunto)
+conjunto = {"Reemplzo de elemntos"}
+print("conjunto: ",conjunto)
+#conjunto no se puede acceder por el indice
+#no se puede repetir valores
+"""
+    no se accede a elementos por indice, no almacena datos duplicados
+"""
+#print (conjunto[3] -> no puede acceder al elemento)
+
+#creando un diccionario (dict)
+diccionario = {
+    'nombre' : "Iván Lato",
+    'perro'  : "Juanita",
+    'esta_emocionado' : True,
+    'altura' : 1.66,
+    'dato_duplicado' : "Iván lato"    
+}
+print("diccionario - nombre: ", diccionario['nombre'])
+
+
+
+
