@@ -18,5 +18,12 @@ print(minusc)
 print("-----Capitaliza -----")#primeras letras en mayusculas y las demas en minusculas
 primeras_letras_en_mayusc = cadena1.capitalize()
 print(primeras_letras_en_mayusc)
+print("----- FIND -----")
+busqueda_find = cadena1.find("Hola")
+print("Busqueda con find: ",busqueda_find)#posición en donde lo encuentra
+busqueda_find2 = cadena1.find("a")
+print("Busqueda con find: ",busqueda_find2)
+busqueda_find3 = cadena1.find("z")
+print("Busqueda con find: ",busqueda_find3)#valor -1 cuando no encuentra nada
 
 
