@@ -1,5 +1,6 @@
 cadena1 = "Hola sr Iván Lato dev web"
 cadena2 = "Bienvenido Maquina"
+cadena3 = 152256456
 print("----- DIR -----")
 
 print("dir en cadena: ",dir(cadena1))# muestra lo que podemos hacer con ese objeto
