@@ -25,5 +25,12 @@ busqueda_find2 = cadena1.find("a")
 print("Busqueda con find: ",busqueda_find2)
 busqueda_find3 = cadena1.find("z")
 print("Busqueda con find: ",busqueda_find3)#valor -1 cuando no encuentra nada
+print("----- BUSQUEDA DE INDEX -----")
+busqueda_index = cadena1.index("a")
+print("busqueda por index: ",busqueda_index)
+busqueda_index2 = cadena1.index("z")
+print("busqueda por index: ",busqueda_index2)#error cunado no lo encuentra 
+
+
 
 
