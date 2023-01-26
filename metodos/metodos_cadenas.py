@@ -60,7 +60,15 @@ print("----- ENDSWITCH -----")
 termina_con = cadena1.endswith("a")
 print("termina con b ",termina_con)
 print("----- replace ------")
-cadena_nueva
+print(cadena2)
+cadena_nueva = cadena2.replace("BienvenidoMaquina","Bienvenid@ Maquinola")
+print("cadena2 con replace:",cadena_nueva)
 
+print("----- split -----")
+cadena_separada = cadena1.split()
+print(cadena_separada)
+cadena_separada2 = cadena1.split(".")
+print(cadena_separada2)
+print("cadena separada es: ",type(cadena_separada))
 
 
