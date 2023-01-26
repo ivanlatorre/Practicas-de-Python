@@ -67,8 +67,8 @@ print("cadena2 con replace:",cadena_nueva)
 print("----- split -----")
 cadena_separada = cadena1.split()
 print(cadena_separada)
-cadena_separada2 = cadena1.split(".")
-print(cadena_separada2)
+cadena_separada2 = cadena1.split("a")
+print("separada2 en la a",cadena_separada2)
 print("cadena separada es: ",type(cadena_separada))
 
 
