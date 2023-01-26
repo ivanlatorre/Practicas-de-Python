@@ -1,6 +1,7 @@
 cadena1 = "Hola sr Iván Lato dev web"
-cadena2 = "Bienvenido Maquina"
-cadena3 = 152256456
+cadena2 = "BienvenidoMaquina"
+cadena3 = "152256456"
+cadena4 = "12321asdas45612"
 print("----- DIR -----")
 
 print("dir en cadena: ",dir(cadena1))# muestra lo que podemos hacer con ese objeto
@@ -29,9 +30,37 @@ print("Busqueda con find: ",busqueda_find3)#valor -1 cuando no encuentra nada
 print("----- BUSQUEDA DE INDEX -----")
 busqueda_index = cadena1.index("a")
 print("busqueda por index: ",busqueda_index)
-busqueda_index2 = cadena1.index("z")
-print("busqueda por index: ",busqueda_index2)#error cunado no lo encuentra 
-
+#busqueda_index2 = cadena1.index("z")
+#print("busqueda por index: ",busqueda_index2)#error cunado no lo encuentra 
+print("----- isnumeric -----")
+es_numerico = cadena3.isnumeric()
+es_numerico2 = cadena1.isnumeric()
+print("cadena3 es numerico:",es_numerico)
+print("cadena1 es numerico:",es_numerico2)
+print("----- ISALPHA ----")
+es_alfanumerico = cadena4.isalpha()
+print("es alfanumerico cadena4: ",es_alfanumerico)
+es_alfanumerico2 = cadena2.isalpha()#cadena 2 esta todo junto
+print("es alfanumerico cadena2: ",es_alfanumerico2)
+print("------ count -----")
+contar_coincidencias = cadena1.count("a")
+contar_coincidencias2 = cadena1.count("I")
+contar_coincidencias3 = cadena1.count("i")
+print('coincidencia cadena1: "a" :' ,contar_coincidencias)
+print('coincidencia cadena1: "I" :' ,contar_coincidencias2)
+#si no lo encuentra es 0
+print('coincidencia cadena1: "i" :' ,contar_coincidencias3)
+print("----- LEN -----")
+contar_caracteres = len(cadena1)
+print("len cadena1: ",contar_caracteres)
+print("----- STARTWITH -----")
+empieza_con = cadena1.startswith("H")
+print("Empieza con H ",empieza_con)
+print("----- ENDSWITCH -----")
+termina_con = cadena1.endswith("a")
+print("termina con b ",termina_con)
+print("----- replace ------")
+cadena_nueva
 
 
 
